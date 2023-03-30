@@ -1,0 +1,17 @@
+name: pde-learning
+channels:
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.9
+  - pytorch
+  - pytorch-cuda=11.7
+  - torchvision
+  - torchaudio
+  - ca-certificates
+  - certifi
+  - openssl
+  - jupyter
+  - scipy
+  - matplotlib
+prefix: /opt/miniconda3/envs/pde-learning
